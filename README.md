@@ -1,6 +1,6 @@
 # Frontend for Food Delivery Application
 
-![GitHub contributors](https://img.shields.io/github/contributors/niikkiin/README.md)
+![GitHub contributors](https://img.shields.io/badge/contributors-2-brightgreen)
 
 ### Date Started
 July 01, 2020
