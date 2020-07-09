@@ -15,8 +15,9 @@ const App = () => {
 			<GlobalStyles />
 			{/* TODO create a component for loading screen */}
 			<Suspense fallback={<div>Loading...</div>}>
-				<Route exact path='/register' component={SignUpPage} />
-        
+				<Switch>
+					<Route exact path='/register' component={SignUpPage} />
+				</Switch>
 			</Suspense>
 		</Router>
 	);

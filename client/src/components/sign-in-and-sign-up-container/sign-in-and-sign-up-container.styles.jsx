@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { displayRowCenter, helpers, breakpoints } from 'utilities/styles/helpers.styles';
 const { mainColor } = helpers;
-const { phone, tabletPortrait, tabletLandscape, desktop, highResDesktop } = breakpoints;
+const { phone, tabletPortrait, tabletLandscape, desktop } = breakpoints;
 
 export const Wrapper = styled.div`
 	height: 100vh;
