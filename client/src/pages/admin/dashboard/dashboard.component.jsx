@@ -4,26 +4,17 @@ import React from 'react';
 import { Container } from './dashboard.styles';
 
 import AdminLayout from 'components/global/layout/admin-layout.component';
-import { CardSmContainer } from 'components/global/card/card.styles';
+import { SmallCard } from 'components/global/card/card.component';
 
 const DashboardPage = () => {
 	return (
 		<AdminLayout title='Dashboard'>
 			<Container>
 				<div class='main-overview'>
-					<CardSmContainer title='Total Number (Restaurant)' number='50' />
-					<div class='overviewcard'>
-						<div class='overviewcard__icon'>Overview</div>
-						<div class='overviewcard__info'>Card</div>
-					</div>
-					<div class='overviewcard'>
-						<div class='overviewcard__icon'>Overview</div>
-						<div class='overviewcard__info'>Card</div>
-					</div>
-					<div class='overviewcard'>
-						<div class='overviewcard__icon'>Overview</div>
-						<div class='overviewcard__info'>Card</div>
-					</div>
+					<SmallCard title='Total Number (Restaurant)' number='50' color='orange' />
+					<SmallCard title='Total Number (Restaurant)' number='50' color='#9CA3AC' />
+					<SmallCard title='Total Number (Restaurant)' number='50' color='#C95609' />
+					<SmallCard title='Total Number (Restaurant)' number='50' color= '#727092' />
 				</div>
 
 				<div class='main-cards'>

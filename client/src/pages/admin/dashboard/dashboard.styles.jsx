@@ -18,17 +18,12 @@ export const Container = styled.div`
 	.main-overview {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(265px, 1fr)); /* Where the magic happens */
-		grid-auto-rows: 94px;
+    grid-auto-rows: 7rem;
+    align-items: center;
 		grid-gap: 20px;
 		margin: 20px;
-	}
-	.overviewcard {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		padding: 20px;
-		background-color: #d3d3;
-	}
+  }
+  
 	.main-cards {
 		column-count: 1;
 		column-gap: 20px;
