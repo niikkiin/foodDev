@@ -5,7 +5,7 @@ import { helpers, breakpoints } from 'utilities/styles/helpers.styles';
 
 const { phone, tabletPortrait } = breakpoints;
 
-const { secondaryColor, mainTint } = helpers;
+const { secondaryColor } = helpers;
 
 export const HeaderContainer = styled.div`
 	background-color: ${secondaryColor};

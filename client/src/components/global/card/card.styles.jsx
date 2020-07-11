@@ -1,4 +1,4 @@
-import styled, {css} from 'styled-components';
+import styled from 'styled-components';
 import { helpers } from 'utilities/styles/helpers.styles';
 
 const getSideColor = (color) => {

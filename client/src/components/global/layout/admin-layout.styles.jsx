@@ -15,8 +15,7 @@ export const Container = styled.div`
 	grid-template-rows: 50px 1fr 50px;
 	grid-template-areas:
 		'header'
-		'main'
-		'footer';
+		'main';
 	height: 100vh;
 
 	.menu-icon {
@@ -61,15 +60,13 @@ export const Container = styled.div`
 		grid-template-columns: 240px 1fr; /* Show the side nav for non-mobile screens */
 		grid-template-areas:
 			'sidebar header'
-			'sidebar main'
-			'sidebar footer';
+			'sidebar main';
 	}
 	@media ${desktop} {
 		grid-template-columns: 240px 1fr; /* Show the side nav for non-mobile screens */
 		grid-template-areas:
 			'sidebar header'
-			'sidebar main'
-			'sidebar footer';
+			'sidebar main';
 	}
 	@media ${highResDesktop} {
 		grid-template-columns: 240px 1fr; /* Show the side nav for non-mobile screens */
