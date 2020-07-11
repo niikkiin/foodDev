@@ -1,10 +1,12 @@
 import styled from 'styled-components';
-import { breakpoints } from 'utilities/styles/helpers.styles';
+import { breakpoints, helpers } from 'utilities/styles/helpers.styles';
 
+const { mainGray } = helpers;
 const { phone, tabletPortrait, tabletLandscape, desktop, highResDesktop } = breakpoints;
 
 export const Title = styled.h1`
-  font-size: 3.5rem;
+	font-size: 3rem;
+	color: #fff;
 `;
 
 export const Container = styled.div`
@@ -73,12 +75,12 @@ export const Container = styled.div`
 		grid-template-columns: 240px 1fr; /* Show the side nav for non-mobile screens */
 		grid-template-areas:
 			'sidebar header'
-			'sidebar main'
-			'sidebar footer';
+			'sidebar main';
 	}
 `;
 
 export const Main = styled.header`
 	grid-area: main;
-	margin: 5rem;
+	padding: 1.5rem 5rem;
+	background-color: ${mainGray};
 `;

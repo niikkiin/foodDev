@@ -35,6 +35,7 @@
     ]
   },
   "devDependencies": {
+    "@iconify/icons-bx": "^1.0.3",
     "@iconify/icons-cil": "^1.0.4",
     "@iconify/react": "^1.1.3"
   }

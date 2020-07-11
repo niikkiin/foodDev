@@ -7,9 +7,9 @@ import { GlobalStyles } from 'utilities/styles/global.styles';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // lazy loading for pages
-const SignUpPage = React.lazy(() => import('pages/sign-up/sign-up.component'));
-const SignInPage = React.lazy(() => import('pages/sign-in/sign-in.component'));
-const DashboardPage = React.lazy(() => import('pages/dashboard/dashboard.component'));
+const SignUpPage = React.lazy(() => import('pages/admin/sign-up/sign-up.component'));
+const SignInPage = React.lazy(() => import('pages/admin/sign-in/sign-in.component'));
+const DashboardPage = React.lazy(() => import('pages/admin/dashboard/dashboard.component'));
 
 const App = () => {
 	return (

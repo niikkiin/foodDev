@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 import { SocialButtonHolder, OrLine } from './sign-up.styles';
 
 // components
-import { SignInAndSignUpContainer } from 'components/sign-in-and-sign-up-container/sign-in-and-sign-up-container.component';
-import { FormInput } from 'components/form-input/form-input.component';
-import { CustomButton } from 'components/custom-button/custom-button.component';
+import { SignInAndSignUpContainer } from 'components/admin/sign-in-and-sign-up-container/sign-in-and-sign-up-container.component';
+import { FormInput } from 'components/global/form-input/form-input.component';
+import { CustomButton } from 'components/global/custom-button/custom-button.component';
 
 const SignUpPage = () => {
 	const [formData, setFormData] = useState({

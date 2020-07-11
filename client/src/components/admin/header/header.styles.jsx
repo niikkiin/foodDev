@@ -10,8 +10,8 @@ const { secondaryColor, mainTint } = helpers;
 export const HeaderContainer = styled.div`
 	background-color: ${secondaryColor};
   grid-area: header;
+  height: 5rem;
   
-  border-bottom: 1px solid ${mainTint};
   ${displayCenterSpaceBetween};
   
   font-size: 2rem;

@@ -9,6 +9,9 @@ export const helpers = {
 
 	googleButtonColor: '#D22A2A',
 	facebookButtonColor: '#5A23B9',
+
+	lightGray: '#C4C4C4',
+	mainGray: '#DBDBDB',
 	// mainTint: '#525966',
 	// mainRGB: '165, 174, 214',
 
