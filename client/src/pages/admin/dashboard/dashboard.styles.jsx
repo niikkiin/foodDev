@@ -20,47 +20,53 @@ export const Container = styled.div`
 		grid-template-columns: repeat(auto-fit, minmax(265px, 1fr)); /* Where the magic happens */
     grid-auto-rows: 7rem;
     align-items: center;
-		grid-gap: 20px;
-		margin: 20px;
+    grid-gap: 20px;
+    margin: 2rem 0;
+  }
+
+  .main-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
   }
   
-	.main-cards {
-		column-count: 1;
-		column-gap: 20px;
-		margin: 20px;
-		@media ${desktop} {
-			column-count: 2;
-		}
-		@media ${highResDesktop} {
-			column-count: 2;
-		}
-	}
-	.card {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: 100%;
-		background-color: #82bef6;
-		margin-bottom: 20px;
-		-webkit-column-break-inside: avoid;
-		padding: 24px;
-		box-sizing: border-box;
-	}
-	/* Force varying heights to simulate dynamic content */
-	.card:first-child {
-		height: 485px;
-	}
-	.card:nth-child(2) {
-		height: 200px;
-	}
-	.card:nth-child(3) {
-		height: 265px;
-	}
-	.set-up-profile {
-		background-color: #f8d6f8;
-		margin: 20px;
-		padding: 20px;
-		color: ${mainTint};
-		font-size: 1.6rem;
-	}
+	// .main-cards {
+	// 	column-count: 1;
+	// 	column-gap: 20px;
+	// 	margin: 20px;
+	// 	@media ${desktop} {
+	// 		column-count: 2;
+	// 	}
+	// 	@media ${highResDesktop} {
+	// 		column-count: 2;
+	// 	}
+	// }
+	// .card {
+	// 	display: flex;
+	// 	flex-direction: column;
+	// 	align-items: center;
+	// 	width: 100%;
+	// 	background-color: #82bef6;
+	// 	margin-bottom: 20px;
+	// 	-webkit-column-break-inside: avoid;
+	// 	padding: 24px;
+	// 	box-sizing: border-box;
+	// }
+	// /* Force varying heights to simulate dynamic content */
+	// .card:first-child {
+	// 	height: 20rem;
+	// }
+	// .card:nth-child(2) {
+	// 	height: 200px;
+	// }
+	// .card:nth-child(3) {
+	// 	height: 265px;
+	// }
+	// .set-up-profile {
+	// 	background-color: #f8d6f8;
+	// 	margin: 20px;
+	// 	padding: 20px;
+	// 	color: ${mainTint};
+	// 	font-size: 1.6rem;
+	// }
 `;

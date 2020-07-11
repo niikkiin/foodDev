@@ -12,7 +12,7 @@ export const Title = styled.h1`
 export const Container = styled.div`
 	display: grid;
 	grid-template-columns: 1fr; /* Side nav is hidden on mobile */
-	grid-template-rows: 50px 1fr 50px;
+	grid-template-rows: 50px 1fr;
 	grid-template-areas:
 		'header'
 		'main';

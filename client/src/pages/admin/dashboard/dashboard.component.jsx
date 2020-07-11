@@ -4,7 +4,7 @@ import React from 'react';
 import { Container } from './dashboard.styles';
 
 import AdminLayout from 'components/global/layout/admin-layout.component';
-import { SmallCard } from 'components/global/card/card.component';
+import Card, { SmallCard } from 'components/global/card/card.component';
 
 const DashboardPage = () => {
 	return (
@@ -18,9 +18,9 @@ const DashboardPage = () => {
 				</div>
 
 				<div class='main-cards'>
-					<div class='card'>Card</div>
-					<div class='card'>Card</div>
-					<div class='card'>Card</div>
+					<Card title='Orders'>
+						Hello world
+					</Card>
 				</div>
 			</Container>
 		</AdminLayout>
